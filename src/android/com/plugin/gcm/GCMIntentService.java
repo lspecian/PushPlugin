@@ -118,7 +118,7 @@ public class GCMIntentService extends GCMBaseIntentService {
 					.setContentIntent(contentIntent)
 					.setAutoCancel(true)
 					.setSound(null)
-					.setVibration(null);
+					.setVibrate(null);
 		}
 
 		String message = extras.getString("message");
